@@ -1,46 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
 header {
   text-align: left;
   margin: 0 auto;
-  background-color: grey;
+  background-color: #f6f2eb;
   padding: 5px;
 }
 
-.floatright {
+.float {
+  border: 3px solid #8A2E60;
 }
 
 #container1 {
-  width: 1330px;
-  padding-left: 10px;
+  width: 1280px;
+  padding-left: 40px;
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 70px;
   margin: 0;
-  color: #FF0007;
-  width: 1030px;
+  color: #7f1d21;
+  width: 1015px;
   float: left;
-  padding-left: 50px;
+  font-family: "Roboto Slab", serif;
 }
 
 h2 {
- font-size: 35px;
+ font-size: 45px;
  margin: 0;
  margin-bottom: .5em;
- color: #FEB1B3;
+ color:#c43442;
  font-weight: lighter;
- width: 1030px;
+ width: 1015px;
  float: left;
- padding-left: 50px;
+ font-family: "Bitter",serif;
 }
 
 h3 {
-  padding-left: 50px;
-  color: #FF1B21;
+  color: #8A2E60;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 h4 {
-  padding-left: 50px;
+  font-size: 22px;
+  margin: 0;
+  color: #A00057;
+  font-family: "Bitter",serif;
 }
+
+h5 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #A00057;
+  font-family: "Merriweather",serif;
+}
+
+h6 {
+  font-size: 17px;
+  font-family: "Merriweather",serif;
+  color: #A00057;
+}
+
 
 nav {
   margin: 0 auto;
@@ -48,82 +76,146 @@ nav {
   text-align: center;
   border-bottom: 5px solid black;
   border-top: 5px solid black;
+  width: 1280px;
 }
 
 nav a {
-  margin: 0 35px;
-  font-size: 18px;
-  color: #145FFE;
+  margin: 0 40px;
+  font-size: 22px;
+  color: #E29300;
+  font-family: "Bitter", serif;
 }
 
 
 #para1 {
   float: left;
-  margin-right: 15px;
+  margin-right: 3px;
   box-sizing: border-box;
   padding-top: 20px;
-  font-size: 17px;
-  color: black;
-  padding-left: 50px;
+  font-size: 27px;
+  color: #5b2d1b;
+  font-family: "Lora", serif;
+}
+
+.floatleft {
+  float: left;
+  margin-top: 20px;
+  margin-left: 3px;
+  border: 2px solid #8A2E60;
 }
 
 #para2 {
   float: right;
   box-sizing: border-box;
-  padding-top:300px;
-  font-size: 16px;
-  color: #FF0007;
+  padding-top:270px;
+  font-size: 18px;
+  color: #A00057;
   font-weight: bold;
-  padding-right: 10px;
+  margin-right: 3px;
+  font-family: "Bitter", serif;
 }
+
 
 #para3 {
   margin: 2px;
   padding: 3px;
   float: left;
-  color: black;
-  font-size: 18px;
-  padding-left: 50px;
+  color: #5b2d1b;
+  font-size: 20px;
   padding-top: .7em;
+  font-family: "Lora", serif;
 }
 
 #para4 {
   margin: 2px;
   padding: 3px;
   float: left;
-  color: black;
-  font-size: 18px;
-  padding-left: 50px;
+  color: #5b2d1b;
+  font-size: 20px;
+  font-family: "Lora", serif;
 }
 
 #para5 {
   margin: 2px;
   padding: 3px;
   float: left;
-  color: black;
-  font-size: 18px;
-  padding-left: 50px;
-}
-
-#para6 {
-
+  color: #5b2d1b;
+  font-size: 20px;
+  font-family: "Lora", serif;
 }
 
 #box1 {
   box-sizing: border-box;
-  width: 600px;
+  width: 500px;
   float: left;
-  padding-left: 50px;
+  padding: 5px;
 }
 
 #box2 {
   box-sizing: border-box;
-  width: 600px;
+  width: 500px;
   float: left;
-  padding-right: 50px;
-  margin-left: 130px;
+  margin-left: 150px;
+  padding: 5px;
+}
+
+#box3 {
+  box-sizing: border-box;
+  width: 500px;
+  float: left;
+  padding: 5px;
+}
+
+#box4 {
+  box-sizing: border-box;
+  width: 500px;
+  float: left;
+  margin-left: 150px;
+  padding: 5px;
+}
+
+#box5 {
+  box-sizing: border-box;
+  float: right;
+  width: 635px;
+}
+
+#box6 {
+  box-sizing: border-box;
+  float: left;
+  width: 500px;
+}
+
+ul {
+  font-size: 19px;
+  color: #5b2d1b;
+  font-family: "Lora", serif;
+}
+
+.app {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #8A2E60;
+}
+
+.sand{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #8A2E60;
+}
+
+.soup{
+  margin-top: 10px;
+  border: 3px solid #8A2E60;
+}
+
+.beans {
+  margin-top: 10px;
+  border: 3px solid #8A2E60;
 }
 
 body {
-
+  margin: 0;
+  padding: 0;
+  background-color: #dad6d1;
 }
