@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 65px;
   margin: 0;
   color: #7f1d21;
   width: 1015px;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
- font-size: 45px;
+ font-size: 40px;
  margin: 0;
  margin-bottom: .5em;
  color:#c43442;
@@ -41,7 +41,6 @@ h2 {
 
 h3 {
   color: #8A2E60;
-  font-weight: bold;
   font-size: 35px;
   font-family: "Roboto Slab", serif;
   margin: 0;
@@ -67,6 +66,7 @@ h6 {
   font-size: 17px;
   font-family: "Merriweather",serif;
   color: #A00057;
+  margin: 0;
 }
 
 
@@ -80,8 +80,9 @@ nav {
 }
 
 nav a {
-  margin: 0 40px;
-  font-size: 22px;
+  text-decoration: none;
+  margin: 0 43px;
+  font-size: 23px;
   color: #E29300;
   font-family: "Bitter", serif;
 }
@@ -89,7 +90,6 @@ nav a {
 
 #para1 {
   float: left;
-  margin-right: 3px;
   box-sizing: border-box;
   padding-top: 20px;
   font-size: 27px;
@@ -100,8 +100,8 @@ nav a {
 .floatleft {
   float: left;
   margin-top: 20px;
-  margin-left: 3px;
-  border: 2px solid #8A2E60;
+  margin-left: 2px;
+  border: 3px solid #8A2E60;
 }
 
 #para2 {
@@ -113,35 +113,6 @@ nav a {
   font-weight: bold;
   margin-right: 3px;
   font-family: "Bitter", serif;
-}
-
-
-#para3 {
-  margin: 2px;
-  padding: 3px;
-  float: left;
-  color: #5b2d1b;
-  font-size: 20px;
-  padding-top: .7em;
-  font-family: "Lora", serif;
-}
-
-#para4 {
-  margin: 2px;
-  padding: 3px;
-  float: left;
-  color: #5b2d1b;
-  font-size: 20px;
-  font-family: "Lora", serif;
-}
-
-#para5 {
-  margin: 2px;
-  padding: 3px;
-  float: left;
-  color: #5b2d1b;
-  font-size: 20px;
-  font-family: "Lora", serif;
 }
 
 #box1 {
@@ -177,19 +148,54 @@ nav a {
 #box5 {
   box-sizing: border-box;
   float: right;
-  width: 635px;
+  width: 750px;
 }
 
 #box6 {
   box-sizing: border-box;
   float: left;
-  width: 500px;
+}
+
+.floatright {
+  float: left;
+  margin-top: 20px;
+  margin-left: 3px;
+  border: 3px solid #8A2E60;
+}
+
+#box7{
+  float: left;
+}
+
+#para3 {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+#para4{
+  padding: 5px;
+  margin-bottom: 5px;
+}
+#para5{
+  padding: 5px;
+}
+#box8{
+  float: right;
+  width: 940px;
+  margin-left: 5px;
+  margin-top: 20px;
+  color: #5b2d1b;
+  font-size: 20px;
+  font-family: "Lora", serif;
 }
 
 ul {
   font-size: 19px;
   color: #5b2d1b;
   font-family: "Lora", serif;
+}
+
+li {
+  padding: 3px;
 }
 
 .app {
